@@ -19,6 +19,7 @@ int main()
 		int result = n1 + n2;
 
 		printf("O resultado da soma é %d", result);
+		scanf("");
 	}
 
 
