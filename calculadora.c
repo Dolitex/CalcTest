@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -52,6 +53,17 @@ int main()
 		result = n1 / n2;
 
 		printf("O resultado da divisão é %d\n", result);
+		scanf("");
+	}
+
+	else if(comando == '^')
+	{
+		printf("Digite o número da base seguido pelo número do expoente.\n");
+		scanf("%d %d", &n1, &n2);
+
+		result = pow(n1, n2);
+
+		printf("O reusltado é %d\n", result);
 		scanf("");
 	}
 
