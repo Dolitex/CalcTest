@@ -18,7 +18,7 @@ int main()
 
 		result = n1 + n2;
 
-		printf("O resultado da soma é %d", result);
+		printf("O resultado da soma é %d\n", result);
 		scanf("");
 	}
 
@@ -29,8 +29,19 @@ int main()
 
 		result = n1 - n2;
 
-		printf("O resultado da subtração é %d", result);
-		scanf();
+		printf("O resultado da subtração é %d\n", result);
+		scanf("");
+	}
+
+	else if(comando == '*')
+	{
+		printf("Digite os números para a multiplicação.\n");
+		scanf("%d %d", &n1, &n2);
+
+		result = n1 * n2;
+
+		printf("O resultado da multiplicação é %d", result);
+		scanf("");
 	}
 
 
