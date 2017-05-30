@@ -40,7 +40,18 @@ int main()
 
 		result = n1 * n2;
 
-		printf("O resultado da multiplicação é %d", result);
+		printf("O resultado da multiplicação é %d\n", result);
+		scanf("");
+	}
+
+	else if(comando == '/')
+	{
+		printf("Digite os números para a divisão.\n");
+		scanf("%d %d", &n1, &n2);
+
+		result = n1 / n2;
+
+		printf("O resultado da divisão é %d\n", result);
 		scanf("");
 	}
 
