@@ -65,7 +65,6 @@ int main()
 
 		printf("O reusltado é %d\n", result);
 		scanf("");
-		//sasasa
 	}
 
 
